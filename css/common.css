@@ -1,0 +1,54 @@
+html,body,p,h1,h2,h3,h4,ul,li{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #F5F5F5;
+	min-width: 1226px;
+	font-size:14px;
+}
+.container{
+	width:1226px;	
+	margin:0 auto;
+}
+ a{ 
+    color: #333;
+	text-decoration: none;
+}
+ a:hover{
+	color:#FF6700;
+}
+
+.lf{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clear::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+img{
+	vertical-align:center;
+}
+.fixed_nav{
+    position:fixed;
+    z-index:160;
+    top:0;
+    left:0;
+    right: 0;
+    width: 1230px;
+    height:60px;
+    background: #ffffff;
+    transition: all 0.2s;
+    /* padding: 15px; */
+    margin:0 auto;
+}

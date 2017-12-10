@@ -1,0 +1,87 @@
+/***************小米登录网页****************************** */
+#login{
+	margin-top:35px;
+}
+#login .login_top{
+	height:100px;
+}
+#login div.title{
+	margin-left:25px;
+	margin-top:-5px;
+}
+#login div.title>h2{
+	font-size: 28px;
+}
+#login div.title>span{
+	color:#707070;
+}
+#login .login_main{
+	width: 100%;
+    height: 588px;
+    position: absolute;
+    left: 0px;
+	top: 120px;
+	background: url(../img/index/39bbba76b6bd35821f820c9f1e21de27.jpg)   top center;
+}
+#login div.login_form{
+	width:410px;
+	height: 560px;
+	position: absolute; 
+	background:#fff;
+	top:75px;
+	right:60px;
+}
+#login div.login_form>p.title{
+	width:410px;
+	height: 50px;
+	margin:20px 0;
+	text-align: center;
+	font-size: 24px;
+}
+#login div.login_form>p.title>a{
+	 padding:0 30px;
+	
+}
+#login div.login_form>p.title>a:first-child{
+	border-right: 2px solid #E0E0E0;
+}
+#login div.login_form div.form{
+	width:348px;
+	height: 397px;
+	margin:5px auto;
+	text-align: center;
+	
+}
+
+#login div.form input{
+	width:320px;
+	height:40px;
+	margin:20px 0;
+	padding:5px 0;
+	background:#fff;
+}
+#login div.form  p.txt{
+	width:320px; 
+	text-align: left;
+	color:#ff6700;
+	margin:auto;
+}
+#login div.form  p.txt>img{
+	vertical-align: top;
+	position: relative;
+	top:2px;
+}
+#login #btn{
+	background: #ff6700;
+	border:none;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+}
+div.form p.txt_2{
+	text-align: right;
+}
+div.form p.txt_2>a{
+	padding:5px;
+}

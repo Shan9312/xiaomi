@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>小米登录</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+	<div id="login">
+		<div class="container login_top">
+			<div class="lf">
+				<a href="#" class="logo">
+			   <img src="./img/index/logo.png" class="logo_img">
+			  </a>
+			</div>
+			<div class="lf title">
+				<h2>小米商城</h2>
+				<span>让每个人都享受科技的乐趣</span>
+			</div>
+		</div>
+		<!-- 背景图 -->
+		<div class="login_main">
+			<div class="login_form">
+				<p class="title">
+					<a href="#">账号登录</a>
+					<a href="#">扫描登录</a>
+				</p>
+				<div class="form">
+					<form action="post">
+						<div>
+							<div><label for="tel"></label></div>
+							<input id="tel" type="tel" name="phone" placeholder="手机号码">
+						</div>
+						<div>
+							<div><label for="pwd"></label></div>
+							<input id="pwd" type="password" name="upwd" placeholder="密码">
+						</div>
+						<p class="txt">
+							<!-- <img src="img/index/err.png">手机号码或密码不正确 -->
+						</p>
+						<div><input type="buttin" id="btn" value="登录"></div>
+						<p class="txt_2"><a href="#">立即注册</a>|<a href="#">忘记密码？</a></p>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
